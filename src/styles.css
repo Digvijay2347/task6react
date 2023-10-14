@@ -1,0 +1,177 @@
+.App {
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .App-header {
+    background-color: transparent;
+    min-height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  nav {
+    background-color: rgba(255, 255, 255, 0.104);
+    color: white;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    padding: 20px;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  nav ul li:hover {
+    background-color: #5a6e7a;
+    transform: scale(1.0);
+    border-radius: 50px;
+  }
+  .additional-section{
+    margin-top: 100px;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    object-fit: cover;
+  }
+
+  .additional-section h2 {
+    font-size: 24px; 
+    margin-bottom: 10px;
+    color: #ecf0f1;
+  }
+  
+  .additional-section p {
+    font-size: 16px; 
+    line-height: 1.5; 
+    color: #ecf0f1;
+  }
+
+  .additional-section img {
+    position: absolute;
+    top: 600px;
+    max-width: 100%; /* Set the maximum width of the image */
+    display: block; /* Center the image horizontally */
+    margin: 0 auto; /* Center the image horizontally */
+  }
+  .section {
+    position: relative;
+    margin-top: 500px; 
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #3498db;
+    border-radius: 5px;
+    background-color: #ecf0f1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s;
+  }
+  
+  
+  .section:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    transform: scale(1.2);
+  }
+  
+  .project {
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #3498db;
+    border-radius: 5px;
+    background-color: #ecf0f1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s;
+  }
+  
+  .project:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    transform: scale(1.03);
+  }
+  
+  .home {
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #3498db;
+    border-radius: 5px;
+    background-color: #ecf0f1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s;
+  }
+  
+  .home:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    transform: scale(1.04);
+  }
+  .home h2 {
+    font-size: 24px; /* Adjust the font size to your preference */
+    font-family: "Arial", sans-serif; /* Change the font family as needed */
+    background-image: linear-gradient(to right, #FF5733, #1F7A2A); /* Define your gradient */
+    -webkit-background-clip: text; /* Clip the text to the gradient */
+    color: transparent; /* Make the text transparent */
+    display: inline; /* Keep the text inline with the gradient background */
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  h1 {
+    position: absolute;
+    left: 40px;
+    font-size: 3.9rem; 
+    font-family: "Arial", sans-serif; 
+    color: #ffffff;
+    transition: transform 0.3s ease, text-shadow 0.3s ease;
+  }
+  
+h1:hover {
+  transform: scale(1.1); /* Add a zoom effect on hover */
+  text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5); /* Add a glow effect on hover */
+}
+
+.follow-button {
+  position: absolute;
+  top: 1027px;
+  left: 700px;
+  background-color: #8A2BE2; /* Violet color */
+  border: none;
+  border-radius: 5px; /* Add a border radius */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  z-index: 22;
+}
+.follow-button:hover {
+  background-color: white;
+  color: #8A2BE2; /* Violet color */
+  transform: scale(1.05);
+}
+
+.follow-button:focus {
+  outline: none; /* Remove the default focus outline */
+}
